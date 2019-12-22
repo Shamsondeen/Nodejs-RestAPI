@@ -1,0 +1,26 @@
+GET http://localhost:5000/subscribers
+
+
+###
+
+GET http://localhost:5000/subscribers/5dffe77ccafa4e1ee0af030c
+
+###
+POST  http://localhost:5000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Sharme Ika",
+    "subscribedToChannel": "Ika Nation"
+}
+
+###
+DELETE http://localhost:5000/subscribers/5dffe77ccafa4e1ee0af030c
+
+###
+PATCH  http://localhost:5000/subscribers/5dffedb16be9d40b5073e9ea
+Content-Type: application/json
+
+{
+    "name": "Sharme-ika"
+}
